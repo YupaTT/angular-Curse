@@ -7,6 +7,7 @@ import { SinEstadoComponent } from "./sin-estado/sin-estado.component";
 import { AlertaConfirmacionComponent } from "./alerta-confirmacion/alerta-confirmacion.component";
 import { ContenedorImagenComponent } from "./contenedor-imagen/contenedor-imagen.component";
 import { ShoppingCartStatusComponent } from "./shopping-cart-status/shopping-cart-status.component";
+import { PresupuestoComponent } from './presupuesto/presupuesto.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { ShoppingCartStatusComponent } from "./shopping-cart-status/shopping-car
     SinEstadoComponent,
     AlertaConfirmacionComponent,
     ContenedorImagenComponent,
-    ShoppingCartStatusComponent
+    ShoppingCartStatusComponent,
+    PresupuestoComponent
   ],
   imports: [BrowserModule],
   providers: [],
